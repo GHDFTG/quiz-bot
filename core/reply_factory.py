@@ -28,7 +28,7 @@ def generate_bot_responses(message, session):
     return bot_responses
 
 
-def record_current_answer(answer, current_question_id, session):
+def record_current_answer(answer, question: current_question_id, session):
     '''
     Validates and stores the answer for the current question to django session.
     '''
